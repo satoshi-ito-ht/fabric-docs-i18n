@@ -16,16 +16,20 @@ RSTでトピックを作成することにした場合 (またはRSTで書かれ
 フォーマットの方法を確認したいだけなら、ページ右上隅の `Edit on GitHub` リンクをクリックしてFabricリポジトリに移動し、次に `Raw` タブをクリックします。これにより、ドキュメントのフォーマットが表示されます。
 **GitHub上でファイルを編集しないでください。** もし、ファイルに変更を加えたい場合には、リポジトリをクローンし、そして [Contributing](./CONTRIBUTING.html) のプルリクエストの作成方法に従ってください。
 
+## インクルーシブな言葉
+
+ドキュメントの更新を行う際には、プロジェクトが採用しているインクルーシブな言葉のガイドラインに従ってください。
+
+- ドキュメントの読者は、多様な背景や文化を持ち、好みも異なるということを考慮してください。
+- 潜在的な攻撃用語の使用は避け、例えば「ホワイトリスト (white list) とブラックリスト (black list) 」ではなく、「許可リスト (allow list) と拒否リスト (deny list) 」を使用するようにしてください。
+- 私たちは誰もがより良い世界を作る役割を担っていると信じています。インクルーシブなドキュメントを書くことは大きな改善には見えないかもしれないが、正しい方向への第一歩です。
+- 私たちは[Microsoft bias free writing guidelines](https://docs.microsoft.com/en-us/style-guide/bias-free-communication)や[Google inclusive doc writing guide](https://developers.google.com/style/inclusive-documentation)を参考にすることをお勧めします。
+
 ## 言葉の選び方
-
-**「ホワイトリスト (whitelist) 」「ブラックリスト (blacklist) 」「マスター (master) 」「スレーブ (slave) 」などの単語の使用は避ける**
-
-これらの単語の使用が絶対に必要でない限り (例えば、これらの単語を使用しているコードのセクションを引用する場合)、これらの単語を使用しないでください。
-その単語をより明確にする (例えば、「ホワイトリスト化 (whitelisting) 」が実際に何をするものなのかを説明する) か、「許可リスト (allowlist) 」や「ブロックリスト (blocklist) 」のような代替語を見つけるかしてください。
 
 **チュートリアルでは、ページのトップにステップのリストが必要**
 
-チュートリアルの冒頭にステップのリスト (対応するセクションへのリンク付き) があると、ユーザーは興味のある特定のステップを見つけるのに役立ちます。例えば、 [Use private data in Fabric](./private-data/private-data.html) を確認してください。
+チュートリアルの冒頭にステップのリスト (対応するセクションへのリンク付き) があると、ユーザーは興味のある特定のステップを見つけるのに役立ちます。例えば、 [Using Private Data in Fabric](./private_data_tutorial.html) を確認してください。
 
 **「Fabric」、「Hyperledger Fabric」それとも「HLF」？**
 
@@ -256,7 +260,7 @@ Markdownでは、それはやや単純です。
 
   テキストファイルやYAMLファイルなどの他のファイルの場合は、GitHub内ファイルへの直接リンクを使用します。以下に例を示します。
 
-  [https://github.com/hyperledger/fabric/blob/master/docs/README.md](https://github.com/hyperledger/fabric/blob/master/docs/README.md)
+  [https://github.com/hyperledger/fabric/blob/main/docs/README.md](https://github.com/hyperledger/fabric/blob/main/docs/README.md)
 
   GitHub上でRSTファイルをブラウジングする場合、残念ながら相対リンクは機能しません。
 
