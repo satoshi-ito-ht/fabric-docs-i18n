@@ -225,7 +225,7 @@ Fabricでは、スマートコントラクトはチェーンコードと呼ば�
 `deployCC`サブコマンドは、 **asset-transfer (basic)r** チェーンコードを``peer0.org1.example.com``と``peer0.org2.example.com``にインストールし、
 チャネルフラグを使用して指定されたチャネルにチェーンコードをデプロイします (チャネルが指定されていない場合は`mychannel`)。
 チェーンコードを初めてデプロイする場合、本スクリプトはチェーンコードの依存関係をインストールします。
-言語フラグ`-l`を使うことで、Go、typescript、javascript版のチェーンコードをインストールすることができます。
+言語フラグ`-ccl`を使うことで、Go、typescript、javascript版のチェーンコードをインストールすることができます。
 asset-transfer (basic)のチェーンコードは、`fabric-samples`ディレクトリの`asset-transfer-basic`フォルダにあります。
 このフォルダには、例として提供され、チュートリアル内でFabricの機能を強調するために使用されるサンプルチェーンコードが含まれています。
 
